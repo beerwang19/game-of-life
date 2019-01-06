@@ -15,8 +15,9 @@ public class WhenYouReadAGridFromAString {
 
     @Test
     public void shouldBeAbleToReadAnEmptyGridOfCellsFromAnEmptyString() {
+		String teststr="";
         String gridContents = "";
-
+        
         Cell[][] expectedCells = {{}};
 
         GridReader gridReader = new GridReader();
